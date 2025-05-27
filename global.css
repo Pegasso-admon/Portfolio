@@ -119,18 +119,6 @@
   /* 2 */
 }
 
-:where([aria-busy="true" i]) {
-  cursor: progress;
-}
-
-:where([aria-controls]) {
-  cursor: pointer;
-}
-
-:where([aria-disabled="true" i], [disabled]) {
-  cursor: not-allowed;
-}
-
 :where([aria-hidden="false" i][hidden]) {
   display: initial;
 }
@@ -148,14 +136,9 @@
 
 /* Body */
 body {
-  background-color: #303030;
-  background: url("/images/backgrounds/longhorn.jpg") no-repeat center center fixed;
-  -o-background-size: cover;
-  background-size: cover;
   font-family: "Segoe UI Semilight", Tahoma, Geneva, Verdana, sans-serif, Arial,
     Helvetica, sans-serif;
   scrollbar-color: rgba(0, 0, 0, 0.8) rgba(255, 255, 255, 0.65);
-  cursor: url("../images/cursors/normal.cur"), auto;
 }
 
 /* Defaults */
@@ -678,11 +661,6 @@ h3 {
   }
 }
 
-@media (min-width: 0px) {
-  #background {
-    pointer-events: none;
-  }
-
   h1 {
     font-size: 16px;
   }
@@ -792,7 +770,7 @@ h3 {
   .page-swap-div a {
     margin-bottom: 10px;
   }
-}
+
 
 @media (min-width: 450px) {
   #navigationMenu {
@@ -887,11 +865,6 @@ h3 {
   }
 }
 
-@media (min-width: 641px) {
-  #background {
-    pointer-events: all;
-  }
-
   h1 {
     font-size: 20px;
   }
@@ -928,7 +901,7 @@ h3 {
   #navigationMenu {
     display: block;
   }
-}
+
 
 @media (min-width: 700px) {
   .page-swap-div a {
