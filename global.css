@@ -128,12 +128,6 @@
   position: absolute;
 }
 
-/* Custom Fonts */
-@font-face {
-  font-family: "Segoe UI Semilight";
-  src: url("/fonts/segoe_ui_semilight.ttf") format("truetype");
-}
-
 /* Body */
 body {
   font-family: "Segoe UI Semilight", Tahoma, Geneva, Verdana, sans-serif, Arial,
@@ -294,25 +288,6 @@ input[type="range"] {
   margin-left: 5px;
 }
 
-/* Toggle navbar div */
-.toggle-buttons-divs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-right: 20px;
-}
-
-.toggle-buttons-divs span {
-  color: #e9e9e9;
-  margin-right: 8px;
-}
-
-#navbarToggleButton {
-  margin-right: 5px;
-  max-width: 25px;
-  cursor: url("../images/cursors/link.cur"), auto;
-}
-
 /* Navbar and main content container for IE Browser */
 #navAndContentContainer {
   display: flex;
@@ -438,7 +413,6 @@ input[type="range"] {
 
 /* Main Content */
 #mainContent {
-  background: url("../images/aero_glass.png"), rgba(39, 39, 39, 0.5);
   border-right: 2px solid #363636;
   border-bottom: 2px solid #363636;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
@@ -453,10 +427,6 @@ input[type="range"] {
 
 /* Glass containers */
 .glass-borders {
-  background-image: url("../images/aero_glass.png"),
-    linear-gradient(rgba(48, 48, 48, 0.4),
-      rgba(26, 26, 26, 0.4),
-      rgba(26, 26, 26, 0.4));
   box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
   border-bottom: 1px solid #525252;
   border-top: 1px solid #797979;
