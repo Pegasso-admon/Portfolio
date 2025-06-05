@@ -329,3 +329,63 @@ h1 {
 .Personal-Photo img {
   border-radius: 20px;
 }
+
+@media (min-width: 700px) {
+  .gallery-images-containers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 0px) {
+  .gallery-images-containers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.gallery-images-containers {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+hoja de estilo de user-agent div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+@media (min-width: 1060px) {
+  #websiteContainer {
+    max-width: 1000px;
+  }
+}
+
+.gallery-containers img {
+  background: #121313;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  transition-duration: 0.3s;
+}
+
+.gallery-containers img {
+  border-top: 1px solid #272727;
+  border-left: 1px solid #272727;
+  border-right: 1px solid #3f3f3f;
+  border-bottom: 1px solid #3f3f3f;
+  border-radius: 5px;
+  width: 100%;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
+:where(audio, canvas, iframe, img, svg, video) {
+  vertical-align: middle;
+}
