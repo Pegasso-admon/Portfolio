@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("./images/wallhaven-nzj2gv.jpg");
+  background-image: url("./media/wallhaven-nzj2gv.jpg");
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -389,3 +389,4 @@ img {
 :where(audio, canvas, iframe, img, svg, video) {
   vertical-align: middle;
 }
+
